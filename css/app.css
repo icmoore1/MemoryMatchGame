@@ -33,6 +33,12 @@ h1 {
     font-weight: 300;
 }
 
+h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+
 /*
  * Styles for the deck of cards
  */
@@ -153,3 +159,28 @@ font-size: 2rem;
 .hide {
 	display: none;
 }
+
+/** Screen Resizing **/
+@media only screen and (max-width: 700px) {
+	.score-panel {
+        width: 90%;
+    }
+
+    .deck {
+        width: 95%;
+        padding: 10px;
+        min-height: 100vw;
+    }
+
+    .deck .card {
+        width: 20vw;
+        height: 20vw;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .score-panel {
+        font-size: 20px;
+    }
+}
+
