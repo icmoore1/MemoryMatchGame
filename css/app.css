@@ -113,6 +113,8 @@ h2 {
     float: right;
     cursor: pointer;
 }
+
+/** Modal Styling **/
 .modal_backgound {
 	position: absolute;
 	top: 0;
